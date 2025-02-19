@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f3f4f6; 
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header {
+    background-color: #ff914d; 
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+  }
+  
+  /* Buttons */
+  nav {
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  
+  #animal-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
